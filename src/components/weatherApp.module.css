@@ -1,0 +1,10 @@
+.weatherContainer {
+  width: 500px;
+  height: 500px;
+  margin: 150px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
