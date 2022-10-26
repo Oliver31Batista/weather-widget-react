@@ -18,7 +18,7 @@ const WeatherApp = () => {
     document.title = `Weather | ${weather?.location.name ?? ""}`;
   }, [weather]);
 
-  async function loadInfo(city = "london") {
+  async function loadInfo(city = "saint domingue") {
     try {
       const request = await fetch(
         `${process.env.REACT_APP_URL}&key=${process.env.REACT_APP_KEY}&q=${city}`

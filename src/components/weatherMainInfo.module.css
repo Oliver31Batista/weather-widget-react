@@ -3,7 +3,39 @@
   padding: 10px;
   border-radius: 5px;
   box-sizing: border-box;
-  box-shadow: 2px 2px rgb(255, 255, 255);
+  box-shadow: 2px 2px  rgb(255, 255, 255);
+}
+
+.bgContainerWarm {
+  color: rgb(0, 37, 94);
+  margin-bottom: 5px;
+  background-image: url('../imgs/warm-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: 0.4 ease-out;
+}
+.bgContainerCold {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  background-image: url('../imgs/cold-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: 0.4 ease-out;
+}
+.bgContainerVeryHot {
+  margin-bottom: 5px;
+  background-image: url('../imgs/veryHot-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: 0.4 ease-out;
+}
+.bgContainerSnow {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  background-image: url('../imgs/snow-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: 0.4 ease-out;
 }
 
 .city {
@@ -24,7 +56,7 @@
 }
 
 .condition {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .current {
