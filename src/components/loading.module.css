@@ -1,11 +1,11 @@
 .loadingContainer {
   width: 500px;
-  height: 634px;
+  height: 615px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  background-color: aquamarine;
+  background-color: rgb(87, 87, 87);
   border-radius: 5px;
 }
 
@@ -18,8 +18,8 @@
   background: linear-gradient(
     43deg,
     rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(255, 255, 255) 35%,
+    rgb(86, 89, 90) 100%
   );
   display: flex;
   align-items: center;

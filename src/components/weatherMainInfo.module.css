@@ -1,8 +1,9 @@
 .mainInfo {
-  background-color: cadetblue;
-  padding: 40px;
+  background-color: rgb(87, 87, 87);
+  padding: 10px;
   border-radius: 5px;
   box-sizing: border-box;
+  box-shadow: 2px 2px rgb(255, 255, 255);
 }
 
 .city {

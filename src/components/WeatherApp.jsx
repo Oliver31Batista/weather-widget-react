@@ -12,6 +12,8 @@ const WeatherApp = () => {
     loadInfo();
   }, []);
 
+  weather?.current.condition.text === 'Clear' ? console.log('clear') : console.log('no');
+
   useEffect(() => {
     document.title = `Weather | ${weather?.location.name ?? ""}`;
   }, [weather]);
