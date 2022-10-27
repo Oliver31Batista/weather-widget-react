@@ -1,14 +1,39 @@
 .container {
   margin: 5px 0;
+  display: flex;
 }
 
-.input {
-  background-color: rgb(78, 78, 78);
+.searchTerm {
   width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
   font-size: 18px;
-  border: 0;
-  border-radius: 3px;
-  color: aliceblue;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
 }
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.searchButton img{
+  width: 24px;
+  height: 24px;
+  margin: 3px auto;
+} 
+

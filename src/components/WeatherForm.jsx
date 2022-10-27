@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./weatherForm.module.css";
+import loupe from "../imgs/loupe.png"
 
 export const WeatherForm = ({ onChangeCity }) => {
   const [city, setCity] = useState("");
@@ -17,7 +18,8 @@ export const WeatherForm = ({ onChangeCity }) => {
 
   return (
     <form onSubmit={handleSubmit} className={styles.container}>
-      <input type="text" onChange={onChange} className={styles.input} />
+      <input type="text" onChange={onChange} className={styles.searchTerm} placeholder="Search location..."/>
+      <button className={styles.searchButton}><img src={loupe} alt="search icon"/></button>
     </form>
   );
 };
